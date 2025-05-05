@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(248, 242, 189);
+    color: rgb(196, 16, 151);
+    border: 1px blanchedalmond;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.botones-redes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.github {
+    background: linear-gradient(45deg, #333, #6e5494);
+}
+
+.correo {
+    background: linear-gradient(45deg, #fb4c4c, #faae93);
+}
