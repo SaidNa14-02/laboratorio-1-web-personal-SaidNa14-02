@@ -1,0 +1,24 @@
+Clase 1 – Maquetado HTML y CSS
+
+Descripción:
+EL proyecto consiste en una página web básica creada con HTML5 y CSS. El objetivo es poder aplicar etiquetas semánticas, estilos personalizados y una estructura clara. La página es una presentación personal que incluye una biografía, una imagen de perfil y enlaces a redes sociales.
+
+Requisitos cumplidos:
+- Uso de las etiquetas semánticas como `<header>`, `<main>`, `<section>` y `<footer>`.
+- Aplicación de al menos 3 selectores combinados en CSS:
+  - main section { ... }
+  - ul > li { ... }
+  - a:hover { ... }
+- Contenido:
+  - Imagen de perfil.
+  - Bloque de texto descriptivo.
+  - Lista con enlaces a redes sociales.
+- Diseño funcional para pantallas de mínimo 768px.
+- Código limpio y organizado.
+
+Pasos:
+1.- Se clonó el repositorio y se abrió en Visual Studio Code.
+2.- Escribimos los archivos HTML y CSS desde cero.
+3.- Aplicamos las etiquetas y estilos con selectores combinados.
+4.- Realizamos al menos tres commits con mensajes descriptivos de lo que hicimos.
+5.- Subimos el proyecto a GitHub y se creó un Pull Request para la entrega.
