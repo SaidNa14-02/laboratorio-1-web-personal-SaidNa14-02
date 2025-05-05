@@ -1,0 +1,32 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('/.github/workflows/src/media/bg.png');
+    background-size: cover; 
+}
+
+header{
+    font-size: 100px;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 50px;   
+}
+
+h2{
+    font-size: 40px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
