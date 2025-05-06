@@ -1,0 +1,9 @@
+{
+  "homepage": "https://evillegasg.github.io/laboratorio-1-web-personal-EvillegasG",
+  "scripts": {
+    "deploy":"gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
