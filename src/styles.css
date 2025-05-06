@@ -50,6 +50,9 @@ section {
   padding: 0;
 }
 
+.subtittle{
+  color:#5a5094;
+}
 #skills li {
   background-color: #ca9dc4;
   color:#333;
