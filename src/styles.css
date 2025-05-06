@@ -19,7 +19,7 @@ body {
     padding: 1em;
     max-width: 800px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #fff;
   }
   
   /* Imagen */
@@ -31,6 +31,7 @@ body {
   }
   
   /* Selectores combinados */
+  
   /* 1. Selector descendente */
   main section p {
     color: #333;
