@@ -1,11 +1,11 @@
 html{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
 }
 
 body{
-    background-image: url('/.github/workflows/src/media/bg.png');
+    background-image: url('https://cdn.wallpapersafari.com/51/88/E7MSNJ.jpg');
     background-size: cover; 
 }
 
@@ -15,17 +15,13 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+    background-color: rgb(255,255,255, 0.6);
 }
 
 h1{
     font-size: 50px;   
 }
 
-h2{
-    font-size: 40px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 h3{
     font-size: 40px;
@@ -35,3 +31,24 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+ul{
+    list-style: none;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.infoContainer > div {
+    flex: 1;
+    background-color: rgb(255,255,255, 0.4);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; 
+}
+
