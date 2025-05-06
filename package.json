@@ -1,7 +1,7 @@
 {
   "homepage": "https://12patricia19.github.io/laboratorio-1-web-personal-12Patricia19",
   "scripts": {
-    "deploy":"gh-page -d src"
+    "deploy":"gh-pages -d src"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
