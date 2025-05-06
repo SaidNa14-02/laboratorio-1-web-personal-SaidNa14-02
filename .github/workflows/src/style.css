@@ -36,6 +36,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit
+}
+
 .infoContainer{
     display: flex;
     justify-content: space-between;
@@ -51,4 +56,23 @@ ul{
     margin: 10px;
     border-radius: 10px; 
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255, 0.4);
+}
+
+.socialMedia {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+
+
 

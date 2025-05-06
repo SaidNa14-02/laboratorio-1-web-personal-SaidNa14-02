@@ -4,15 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <!-- Enlace para recursos de font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Página de presentación</title>
 </head>
 
 <body>
     <header>¡Bienvenido!</header>
-    <div class="infoContainer">
+    <main class="infoContainer">
         <div>
             <h1>Mi perfil</h1>
-            <p>Mucho gusto, mi nombre es Said Navarrete, estudiante de tercer semestre de la Tecnología en Desarrollo de
+            <p>Mucho gusto, mi nombre es Said Navarrete, estudiante de tercer semestre de la Tecnología en
+                Desarrollo de
                 software en la PUCE</p>
         </div>
         <div>
@@ -23,7 +28,29 @@
                 <li>Habilidades: Desarrollo con Django, Análisis de datos con python</li>
             </ul>
         </div>
-    </div>
+    </main>
+    <section>
+        <h2>Proyectos realizados</h2>
+        <ul>
+            <a href="https://github.com/PUCETEC-PROG2/proyecto-final-grupo-11-tienda-de-discos.git" target="_blank">
+                <li class="fa-brands fa-github"> CRUD para inventario</li>
+            </a>
+            <br>
+            <a href="https://github.com/SaidNa1402/Banca-Virtual-.git" target="_blank">
+                <li class="fa-brands fa-github"> Simulador banca web</li>
+            </a>
+        </ul>
+    </section>
+    <footer>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/profile.php?id=100080053737418" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/saidna1402/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
