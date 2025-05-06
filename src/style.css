@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Layout básico */
+  header, footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+  }
+  
+  /* Imagen */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+  
+  /* Selectores combinados */
+  /* 1. Selector descendente */
+  main section p {
+    color: #333;
+  }
+  
+  /* 2. Selector hijo directo */
+  ul.lista-hobbies > li {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  /* 3. Pseudo-clase :hover */
+  .lista-hobbies li:hover {
+    color: darkgreen;
+    cursor: pointer;
+  }
+  
