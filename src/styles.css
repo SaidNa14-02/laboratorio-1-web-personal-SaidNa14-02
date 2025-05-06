@@ -1,13 +1,11 @@
-header{
-    background-color: rgb(248, 242, 189);
-    color: rgb(196, 16, 151);
-    border: 1px blanchedalmond;
+header {
+    background-color: #f8f2bd;
+    color: #c41097;
+    border: 1px solid blanchedalmond;
     border-radius: 10px;
-    font-family:cursive;
+    font-family: cursive;
     text-align: center;
 }
-
-
 
 .botones-redes {
     display: flex;
@@ -20,7 +18,7 @@ header{
     padding: 8px 12px;
     border-radius: 8px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -30,53 +28,50 @@ header{
 }
 
 .github {
-    background: linear-gradient(45deg, #333, #6e5494);
+    background: linear-gradient(45deg, #333333, #6e5494);
 }
 
 .correo {
     background: linear-gradient(45deg, #97caed, #76a8ff);
 }
 
-
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-  }
-  
-  .contenido {
-    min-height: calc(100vh - 50px); 
+}
+
+.contenido {
+    min-height: calc(100vh - 50px);
     padding: 20px;
-  }
-  
-  /* Footer pegado abajo */
-  .footer {
+}
+
+
+.footer {
     background-color: #fef6cc;
     color: #d00087;
     text-align: center;
     padding: 10px;
     font-weight: bold;
     border-radius: 15px;
-  }
-  
+}
+
 /* margen */
 .contenedor-imagen {
     text-align: center;
     margin: 30px 0;
 }
 
-
 .imagen-estilizada {
     width: 200px;
-    border: 5px solid #cff884; 
-    border-radius: 15px; 
+    border: 5px solid #cff884;
+    border-radius: 15px;
 }
 
-
 .descripcion-imagen {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
     font-size: 16px;
     margin-top: 10px;
-    font-style:italic;
+    font-style: italic;
 }
