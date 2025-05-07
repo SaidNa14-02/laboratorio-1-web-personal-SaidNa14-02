@@ -1,7 +1,7 @@
 {
   "homepage": "https://elizabeth27256.github.io/laboratorio-1-web-personal-elizabeth27256",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy":"gh-pages -d src"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
