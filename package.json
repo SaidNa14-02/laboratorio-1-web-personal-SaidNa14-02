@@ -1,0 +1,9 @@
+{
+    "homepage": "https://saidna14-02.github.io/laboratorio-1-web-personal-SaidNa14-02/",
+    "scripts": {
+        "deploy": "gh-pages -d src"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.3.0"
+    }
+}
