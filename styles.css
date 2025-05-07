@@ -1,0 +1,78 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+body{
+    background-image: url('https://cdn.wallpapersafari.com/51/88/E7MSNJ.jpg');
+    background-size: cover; 
+}
+
+header{
+    font-size: 100px;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #FFF9;
+}
+
+h1{
+    font-size: 50px;   
+}
+
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.info-container > div {
+    flex: 1;
+    background-color: #FFF6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; 
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #FFF6;
+}
+
+.social-media {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+
+
+
