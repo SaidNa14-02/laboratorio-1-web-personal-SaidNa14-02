@@ -15,7 +15,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-    background-color: #FFFFFF99;
+    background-color: #FFF9;
 }
 
 h1{
@@ -51,7 +51,7 @@ a{
 
 .info-container > div {
     flex: 1;
-    background-color: #FFFFFF66;
+    background-color: #FFF6;
     padding: 20px;
     margin: 10px;
     border-radius: 10px; 
@@ -64,7 +64,7 @@ section{
     padding: 20px;
     margin: 10px;
     border-radius: 15px;
-    background-color: #FFFFFF66;
+    background-color: #FFF6;
 }
 
 .social-media {
