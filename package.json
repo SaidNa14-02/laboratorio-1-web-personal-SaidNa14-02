@@ -1,5 +1,5 @@
 {
-  "homepage": "https://calebsanlucas-en.github.io/laboratorio-1-web-personal-calebsanlucas-eng",
+  "homepage": "https://calebsanlucas-eng.github.io/laboratorio-1-web-personal-calebsanlucas-eng",
   "scripts": {
     "deploy": "gh-pages -d src"
   },
