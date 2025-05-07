@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Crisck-m/laboratorio-1-web-personal-Crisck-m.git",
+  "homepage": "https://Crisck-m-eng.github.io/PUCETEC-DW/laboratorio-1-web-personal-Crisck-m.git",
     "scripts": {
       "deploy": "gh-pages -d src"
 },
