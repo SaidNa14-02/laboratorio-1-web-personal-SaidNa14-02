@@ -1,122 +1,122 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Poppins, sans-serif;
-    background: linear-gradient(135deg, #7a2aa8, #fff);
-    color: #333;
-    line-height: 1.6;
-    animation: fade-in 1s ease-in;
-  }
-  
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  header {
-    background-color: #0d47a1;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
-    animation: slide-down 1s ease-in-out;
-  }
-  
-  @keyframes slide-down {
-    from {
-      transform: translateY(-50px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  main {
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  .identidad {
-    text-align: center;
-    margin: 30px 0;
-  }
-  
-  .identidad p {
-    font-size: 1.8em;
-    color: #555;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .biografia, .redes {
-    text-align: center;
-    margin-bottom: 40px;
-  }  
-  
-  h2 {
-    color: #0d47a1;
-    font-size: 1.8em;
-    margin-bottom: 10px;
+body {
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg, #7a2aa8, #fff);
+  color: #333;
+  line-height: 1.6;
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+header {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+  animation: slide-down 1s ease-in-out;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
   }
-  
-  .imagen img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 4px solid #0d47a1;
-    display: block;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
-    transition: transform 0.3s;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .imagen img:hover {
-    transform: scale(1.05);
-  }
-  
-  .redes ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
-    flex-wrap: wrap;
-  }
-  
-  .redes a {
-    text-decoration: none;
-    color: #0d47a1;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    font-size: 1.1em;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  .redes a i {
-    font-size: 1.4em;
-  }
-  
-  .redes a:hover {
-    color: #1565c0;
-    transform: scale(1.1);
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0d47a1;
-    color: white;
-    margin-top: 40px;
-  }
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.identidad {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.identidad p {
+  font-size: 1.8em;
+  color: #555;
+}
+
+.biografia, .redes {
+  text-align: center;
+  margin-bottom: 40px;
+}  
+
+h2 {
+  color: #0d47a1;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.imagen img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #0d47a1;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+  transition: transform 0.3s;
+}
+
+.imagen img:hover {
+  transform: scale(1.05);
+}
+
+.redes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.redes a i {
+  font-size: 1.4em;
+}
+
+.redes a:hover {
+  color: #1565c0;
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0d47a1;
+  color: white;
+  margin-top: 40px;
+}
