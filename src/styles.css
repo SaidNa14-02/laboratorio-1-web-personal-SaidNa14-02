@@ -15,7 +15,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-    background-color: rgb(255,255,255, 0.6);
+    background-color: rgb(255,255,255, 60%);
 }
 
 h1{
@@ -41,7 +41,7 @@ a{
     color: inherit
 }
 
-.infoContainer{
+.info-container{
     display: flex;
     justify-content: space-between;
     text-align: justify;
@@ -49,9 +49,9 @@ a{
     gap: 20px;
 }
 
-.infoContainer > div {
+.info-container > div {
     flex: 1;
-    background-color: rgb(255,255,255, 0.4);
+    background-color: rgb(255,255,255, 40%);
     padding: 20px;
     margin: 10px;
     border-radius: 10px; 
@@ -64,10 +64,10 @@ section{
     padding: 20px;
     margin: 10px;
     border-radius: 15px;
-    background-color: rgb(255,255,255, 0.4);
+    background-color: rgb(255,255,255, 40%);
 }
 
-.socialMedia {
+.social-media {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
