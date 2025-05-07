@@ -1,0 +1,9 @@
+{
+  "homepage": "https://ArielArcentales.github.io/laboratorio-1-web-personal-ArielArcentales",
+  "scripts": {
+    "deploy":"gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
