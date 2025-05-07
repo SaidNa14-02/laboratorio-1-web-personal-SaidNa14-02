@@ -1,7 +1,7 @@
 main section {
     margin-bottom: 30px;
     padding: 15px;
-    background-color: rgb(99, 191, 191);
+    background-color: aquamarine;
     border-radius: 10px;
     
   }
@@ -21,14 +21,14 @@ main section {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0 25px;
-    background-color: rgb(221, 202, 180);
+    background-color: pink;
     
   }
   
   header {
     margin-bottom: 30px;
     text-align: center;
-    background-color: rgb(221, 165, 24);
+    background-color: bisque;
     border-radius: 10px;
     padding: 25px;
   }
@@ -41,7 +41,7 @@ main section {
   footer{
     margin-bottom: 30px;
     text-align: center;
-    background-color: rgb(221, 165, 24);
+    background-color: pink;
     border-radius: 10px;
     padding: 25px;
   }
