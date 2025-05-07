@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/Crisck-m/laboratorio-1-web-personal-Crisck-m.git",
+    "scripts": {
+      "deploy": "gh-pages -d src"
+},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+
+}
