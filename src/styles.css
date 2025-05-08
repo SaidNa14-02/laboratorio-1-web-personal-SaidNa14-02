@@ -1,7 +1,32 @@
-h1{
-  color: gray;
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
-h2,h3{
-  color: burlywood;
+h1 {
+    color: rgb(14, 158, 9);
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+strong {
+    color: red;
+}
+
+div {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
