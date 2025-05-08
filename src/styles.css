@@ -1,47 +1,51 @@
-main section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    
-  }
-  
-  
-  ul > li {
-    margin-bottom: 9px;
-  }
-  
-  
-  a:hover {
-    color: darkcyan;
-  }
-  
-  
-  body {
+/* Estilos generales */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0 25px;
-    background-color: pink;
-    
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
   }
   
-  header {
-    margin-bottom: 30px;
+  /* Layout básico */
+  header, footer {
+    background-color: #004080;
+    color: white;
     text-align: center;
-    background-color: bisque;
-    border-radius: 10px;
-    padding: 25px;
+    padding: 1em;
   }
   
+  main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+  }
+  
+  /* Imagen */
   img {
     max-width: 100%;
-    border-radius: 50%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
   }
   
-  footer{
-    margin-bottom: 30px;
-    text-align: center;
-    background-color: pink;
-    border-radius: 10px;
-    padding: 25px;
+  /* Selectores combinados */
+  
+  /* 1. Selector descendente */
+  main section p {
+    color: #333;
   }
+  
+  /* 2. Selector hijo directo */
+  ul.lista-hobbies > li {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  /* 3. Pseudo-clase :hover */
+  .lista-hobbies li:hover {
+    color: darkgreen;
+    cursor: pointer;
+  }
+  

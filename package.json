@@ -1,5 +1,5 @@
 {
-  "homepage": "https://elizabeth27256.github.io/laboratorio-1-web-personal-elizabeth27256/",
+  "homepage": "https://evillegasg.github.io/laboratorio-1-web-personal-EvillegasG",
   "scripts": {
     "deploy":"gh-pages -d src"
   },
