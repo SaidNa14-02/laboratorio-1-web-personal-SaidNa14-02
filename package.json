@@ -1,9 +1,10 @@
 {
-  "homepage": "https://calebsanlucas-eng.github.io/laboratorio-1-web-personal-calebsanlucas-eng",
-  "scripts": {
-    "deploy": "gh-pages -d src"
-  },
+  "homepage": "https://Crisck-m-eng.github.io/PUCETEC-DW/laboratorio-1-web-personal-Crisck-m.git",
+    "scripts": {
+      "deploy": "gh-pages -d src"
+},
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
+
 }
