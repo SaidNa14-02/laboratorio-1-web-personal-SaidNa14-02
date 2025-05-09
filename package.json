@@ -1,7 +1,7 @@
 {
-  "homepage": "https://IdkJose.github.io/laboratorio-1-web-personal-IdkJose", 
+  "homepage": "https://WilsonM0105.github.io/laboratorio-1-web-personal-WilsonM0105",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy":"gh-pages -d src"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
